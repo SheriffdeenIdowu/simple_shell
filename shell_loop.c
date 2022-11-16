@@ -3,16 +3,13 @@
 /**
  * init_shell - print out welcome message
 */
-void init_shell()
+void init_shell(void)
 {
-	printf("\n\n\n\n******************"
-			"************************");
-	printf("\n\n\n\t****OUR TEAM SHELL****");
-	printf("\n\n\t-DESIGNED BY SHERRIFDEEN AND ISMAIL");
-	printf("\n\n\n\n*******************"
-			"***********************");
+	printf("\n\n\n\n******************************************");
+	printf("\n\n\n\t*****OUR TEAM SHELL*****");
+	printf("\n\n\tDESIGNED BY SHERRIFDEEN AND ISMAIL");
+	printf("\n\n\n\n******************************************");
 	printf("\n");
-	sleep(1);
 }
 
 /**
